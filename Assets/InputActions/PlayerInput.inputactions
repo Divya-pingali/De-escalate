@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "PlayerInput",
+    "maps": [
+        {
+            "name": "LLMSpeechText",
+            "id": "e45815cc-d52e-4543-ba04-8262f9390b7a",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Value",
+                    "id": "a13e4c7e-a3bf-4ef1-a5e0-049154770c5a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "cca9f17d-b26a-453b-bc32-90f5010a4280",
+                    "path": "<Keyboard>/#(Z)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
