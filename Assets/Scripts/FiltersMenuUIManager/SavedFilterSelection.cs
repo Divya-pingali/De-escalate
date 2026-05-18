@@ -15,11 +15,11 @@ public static class SavedFilterSelection
     public static Material SelectedMaterial;
     public static GameObject SelectedPrefab;
 
-    public static float BlurRadius;
-    public static float BlurTintStrength;
+    public static float BlurStrength = 1f;
+    public static float BlurTintStrength = 0f;
 
-    public static float PixelSize;
-    public static float PixelTintStrength;
+    public static float PixelSize = 10f;
+    public static float PixelTintStrength = 0f;
 
-    public static float BlockStrength;
+    public static float BlockStrength = 1f;
 }

@@ -1863,8 +1863,8 @@ MonoBehaviour:
   onTranscript:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1800077780}
-        m_TargetAssemblyTypeName: STTHeadsetDebugger, Assembly-CSharp
+      - m_Target: {fileID: 1190645284}
+        m_TargetAssemblyTypeName: STTWakeWordListener, Assembly-CSharp
         m_MethodName: OnTranscriptReceived
         m_Mode: 0
         m_Arguments:
@@ -2520,6 +2520,38 @@ MonoBehaviour:
         - m_Target: {fileID: 776958932}
           m_TargetAssemblyTypeName: ToggleObjectActive, Assembly-CSharp
           m_MethodName: Toggle
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - wakeWord: increase
+    onWake:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 680245686}
+          m_TargetAssemblyTypeName: RightHandPixelSizeAdjuster, Assembly-CSharp
+          m_MethodName: IncreasePixelSize
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - wakeWord: decrease
+    onWake:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 680245686}
+          m_TargetAssemblyTypeName: RightHandPixelSizeAdjuster, Assembly-CSharp
+          m_MethodName: DecreasePixelSize
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -3246,6 +3278,68 @@ Transform:
   m_Children: []
   m_Father: {fileID: 880089154}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1486916526
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2011528072}
+    m_Modifications:
+    - target: {fileID: -6689036041284674117, guid: 7fd29a93fde9dd24cbaaee4b253c3d88, type: 3}
+      propertyPath: m_Name
+      value: cute_cloud
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: 7fd29a93fde9dd24cbaaee4b253c3d88, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: 7fd29a93fde9dd24cbaaee4b253c3d88, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: 7fd29a93fde9dd24cbaaee4b253c3d88, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: 7fd29a93fde9dd24cbaaee4b253c3d88, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: 7fd29a93fde9dd24cbaaee4b253c3d88, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: 7fd29a93fde9dd24cbaaee4b253c3d88, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: 7fd29a93fde9dd24cbaaee4b253c3d88, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: 7fd29a93fde9dd24cbaaee4b253c3d88, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: 7fd29a93fde9dd24cbaaee4b253c3d88, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: 7fd29a93fde9dd24cbaaee4b253c3d88, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -5645937942226959685, guid: 7fd29a93fde9dd24cbaaee4b253c3d88, type: 3}
+--- !u!4 &1486916527 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2774220344278030320, guid: 7fd29a93fde9dd24cbaaee4b253c3d88, type: 3}
+  m_PrefabInstance: {fileID: 1486916526}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1494461847
 GameObject:
   m_ObjectHideFlags: 0
@@ -5165,6 +5259,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1486916527}
   - {fileID: 278646372}
   m_Father: {fileID: 1801833278}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

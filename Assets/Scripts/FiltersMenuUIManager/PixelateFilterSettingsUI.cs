@@ -31,7 +31,6 @@ public class PixelateFilterSettingsUI : MonoBehaviour
     private void Start()
     {
         CreatePreviewMaterial();
-
         pixelSizeSlider.onValueChanged.AddListener(OnPixelSizeChanged);
         tintStrengthSlider.onValueChanged.AddListener(OnTintStrengthChanged);
     }

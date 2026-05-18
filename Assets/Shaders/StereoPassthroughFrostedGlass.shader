@@ -6,13 +6,16 @@ Shader "QuestCameraKit/CameraMapping/StereoPassthroughFrostedGlassTransparent"
         _RightTex("Right Texture", 2D) = "black" {}
         _Tint("Tint", Color) = (0.92,0.96,1,1)
         _TintStrength("Tint Strength", Range(0, 1)) = 0.22
+
         _LeftUvOffset("Left UV Offset", Vector) = (0,0,0,0)
         _RightUvOffset("Right UV Offset", Vector) = (0,0,0,0)
+
         _BlurRadius("Blur Radius", Range(0.0, 0.02)) = 0.006
+        _BlurStrength("Blur Strength", Range(0.0, 1.0)) = 1.0
+
         _RefractionNoiseScale("Refraction Noise Scale", Range(10, 250)) = 120
         _RefractionNoiseAmount("Refraction Noise Amount", Range(0.0, 0.01)) = 0.0025
 
-        // Keep these very small so the border is extremely faint.
         _EdgeFeather("Camera UV Edge Feather", Range(0.001, 0.2)) = 0.003
         _QuadFeather("Quad Feather", Range(0.001, 0.3)) = 0.005
 
@@ -51,6 +54,7 @@ Shader "QuestCameraKit/CameraMapping/StereoPassthroughFrostedGlassTransparent"
             float _TintStrength;
             float _PreviewEye;
             float _BlurRadius;
+            float _BlurStrength;
             float _RefractionNoiseScale;
             float _RefractionNoiseAmount;
             float _EdgeFeather;
@@ -117,7 +121,8 @@ Shader "QuestCameraKit/CameraMapping/StereoPassthroughFrostedGlassTransparent"
 
                 float2 sensorPoint = float2(
                     (localPos.x / localPos.z) * focalLength.x + principalPoint.x,
-                    (localPos.y / localPos.z) * focalLength.y + principalPoint.y);
+                    (localPos.y / localPos.z) * focalLength.y + principalPoint.y
+                );
 
                 float2 scaleFactor = currentResolution / sensorResolution;
                 scaleFactor /= max(scaleFactor.x, scaleFactor.y);
@@ -219,8 +224,15 @@ Shader "QuestCameraKit/CameraMapping/StereoPassthroughFrostedGlassTransparent"
                     discard;
                 }
 
+                half3 original = SampleEye(eyeIndex, uv).rgb;
                 half3 blurred = accum / totalWeight;
-                half3 frosted = lerp(blurred, blurred * _Tint.rgb, _TintStrength);
+
+                // Actual blur intensity control:
+                // 0 = original image
+                // 1 = fully blurred image
+                half3 blurMixed = lerp(original, blurred, _BlurStrength);
+
+                half3 frosted = lerp(blurMixed, blurMixed * _Tint.rgb, _TintStrength);
 
                 float cameraEdgeDistance = min(min(uv.x, uv.y), min(1.0 - uv.x, 1.0 - uv.y));
                 float cameraEdgeFade = smoothstep(0.0, _EdgeFeather, cameraEdgeDistance);
@@ -229,7 +241,6 @@ Shader "QuestCameraKit/CameraMapping/StereoPassthroughFrostedGlassTransparent"
                 float quadEdgeDistance = min(min(meshUv.x, meshUv.y), min(1.0 - meshUv.x, 1.0 - meshUv.y));
                 float quadFade = smoothstep(0.0, _QuadFeather, quadEdgeDistance);
 
-                // Makes the line even less obvious.
                 quadFade = pow(quadFade, 0.5);
 
                 float finalAlpha = cameraEdgeFade * quadFade;

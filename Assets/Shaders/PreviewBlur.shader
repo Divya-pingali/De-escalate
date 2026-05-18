@@ -6,6 +6,7 @@ Shader "QuestCameraKit/Preview/FrostedGlassPreview"
         _Tint("Tint", Color) = (0.92,0.96,1,1)
         _TintStrength("Tint Strength", Range(0, 1)) = 0.22
         _BlurRadius("Blur Radius", Range(0.0, 0.02)) = 0.006
+        _BlurStrength("Blur Strength", Range(0.0, 1.0)) = 1.0
     }
 
     SubShader
@@ -34,6 +35,7 @@ Shader "QuestCameraKit/Preview/FrostedGlassPreview"
             float4 _Tint;
             float _TintStrength;
             float _BlurRadius;
+            float _BlurStrength;
 
             struct Attributes
             {
@@ -80,8 +82,13 @@ Shader "QuestCameraKit/Preview/FrostedGlassPreview"
                     total += w;
                 }
 
+                half3 original = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, uv).rgb;
                 half3 blurred = accum / total;
-                half3 tinted = lerp(blurred, blurred * _Tint.rgb, _TintStrength);
+
+                // Actual blur intensity control
+                half3 blurMixed = lerp(original, blurred, _BlurStrength);
+
+                half3 tinted = lerp(blurMixed, blurMixed * _Tint.rgb, _TintStrength);
 
                 return half4(tinted, 1);
             }

@@ -1620,19 +1620,7 @@ MonoBehaviour:
       m_Calls: []
   sliderEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1978712759}
-        m_TargetAssemblyTypeName: FilterMaterialSettings, Assembly-CSharp
-        m_MethodName: OnTintStrengthChanged
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   sliderAnimator: {fileID: 0}
   saveValue: 0
 --- !u!114 &128653658
@@ -10394,7 +10382,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.RawImage
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 5f6d96c8eb7d0b34395208bc099ad3bf, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -13255,19 +13243,7 @@ MonoBehaviour:
       m_Calls: []
   sliderEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1978712759}
-        m_TargetAssemblyTypeName: FilterMaterialSettings, Assembly-CSharp
-        m_MethodName: OnTintStrengthChanged
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   sliderAnimator: {fileID: 0}
   saveValue: 0
 --- !u!114 &1086735314
@@ -13919,9 +13895,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 88330065}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 0.3
+  m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0.22
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -24031,7 +24007,7 @@ MonoBehaviour:
   selectedPrefab: {fileID: 721656010665280452, guid: 9aa28cf7d362fb04ab40ef2b371651b4, type: 3}
   passthroughSceneName: ShaderScene
   previewRawImage: {fileID: 865051641}
-  blurRadiusSlider: {fileID: 1111911413}
+  blurStrengthSlider: {fileID: 1111911413}
   tintStrengthSlider: {fileID: 128653658}
 --- !u!4 &1978712760
 Transform:
@@ -24104,7 +24080,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1801a80b6d9624995cf93675bf92ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  pixelateActualMaterial: {fileID: 2100000, guid: e4807b81950251841934cac7a741e139, type: 2}
+  pixelateActualMaterial: {fileID: 2100000, guid: 302e922b0cbb734499d83ba60e464000, type: 2}
   pixelatePreviewTemplateMaterial: {fileID: 2100000, guid: 628060b5fdac8ff4786821368280ea00, type: 2}
   selectedPrefab: {fileID: 428545670189654379, guid: 377cf903a5c6a1b4dab000a38ae1b399, type: 3}
   passthroughSceneName: ShaderScene
@@ -24125,7 +24101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   blockActualMaterial: {fileID: 2100000, guid: bc823ef297643d043902a1754785e995, type: 2}
   blockPreviewTemplateMaterial: {fileID: 2100000, guid: ffa4cb2c4049f0d40b6fa10dd7c936c2, type: 2}
-  selectedPrefab: {fileID: 3047992806051756380, guid: 472b2fd724b0d5943aabacd0fad37fb3, type: 3}
+  selectedPrefab: {fileID: 721656010665280452, guid: bc641a6643845c14db699943843ee33f, type: 3}
   passthroughSceneName: ShaderScene
   previewRawImage: {fileID: 1636741813}
   blockStrengthSlider: {fileID: 374004092}

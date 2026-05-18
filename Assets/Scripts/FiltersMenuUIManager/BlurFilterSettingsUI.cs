@@ -18,14 +18,16 @@ public class BlurFilterSettingsUI : MonoBehaviour
     [SerializeField] private RawImage previewRawImage;
 
     [Header("Sliders")]
-    [SerializeField] private Slider blurRadiusSlider;
+    [SerializeField] private Slider blurStrengthSlider;
     [SerializeField] private Slider tintStrengthSlider;
 
     private Material runtimePreviewMaterial;
 
+    private const float PreviewBlurRadius = 0.02f;
     private const float MaxTintStrength = 0.02f;
 
     private static readonly int BlurRadius = Shader.PropertyToID("_BlurRadius");
+    private static readonly int BlurStrength = Shader.PropertyToID("_BlurStrength");
     private static readonly int TintStrength = Shader.PropertyToID("_TintStrength");
     private static readonly int Tint = Shader.PropertyToID("_Tint");
     private static readonly int MainTex = Shader.PropertyToID("_MainTex");
@@ -34,7 +36,7 @@ public class BlurFilterSettingsUI : MonoBehaviour
     {
         CreatePreviewMaterial();
 
-        blurRadiusSlider.onValueChanged.AddListener(OnBlurRadiusChanged);
+        blurStrengthSlider.onValueChanged.AddListener(OnBlurStrengthChanged);
         tintStrengthSlider.onValueChanged.AddListener(OnTintStrengthChanged);
     }
 
@@ -46,13 +48,15 @@ public class BlurFilterSettingsUI : MonoBehaviour
         runtimePreviewMaterial = new Material(blurPreviewTemplateMaterial);
         runtimePreviewMaterial.SetTexture(MainTex, previewRawImage.texture);
 
-        runtimePreviewMaterial.SetFloat(BlurRadius, blurActualMaterial.GetFloat(BlurRadius));
+        runtimePreviewMaterial.SetFloat(BlurRadius, PreviewBlurRadius);
+
+        runtimePreviewMaterial.SetFloat(BlurStrength, blurActualMaterial.GetFloat(BlurStrength));
         runtimePreviewMaterial.SetFloat(TintStrength, blurActualMaterial.GetFloat(TintStrength));
         runtimePreviewMaterial.SetColor(Tint, blurActualMaterial.GetColor(Tint));
 
         previewRawImage.material = runtimePreviewMaterial;
 
-        blurRadiusSlider.SetValueWithoutNotify(runtimePreviewMaterial.GetFloat(BlurRadius));
+        blurStrengthSlider.SetValueWithoutNotify(runtimePreviewMaterial.GetFloat(BlurStrength));
 
         float actualTintStrength = runtimePreviewMaterial.GetFloat(TintStrength);
         tintStrengthSlider.SetValueWithoutNotify(actualTintStrength / MaxTintStrength);
@@ -60,11 +64,11 @@ public class BlurFilterSettingsUI : MonoBehaviour
         previewRawImage.SetMaterialDirty();
     }
 
-    private void OnBlurRadiusChanged(float value)
+    private void OnBlurStrengthChanged(float value)
     {
         if (runtimePreviewMaterial == null) return;
 
-        runtimePreviewMaterial.SetFloat(BlurRadius, value);
+        runtimePreviewMaterial.SetFloat(BlurStrength, value);
         previewRawImage.SetMaterialDirty();
     }
 
@@ -82,7 +86,7 @@ public class BlurFilterSettingsUI : MonoBehaviour
     {
         if (runtimePreviewMaterial == null) return;
 
-        blurActualMaterial.SetFloat(BlurRadius, runtimePreviewMaterial.GetFloat(BlurRadius));
+        blurActualMaterial.SetFloat(BlurStrength, runtimePreviewMaterial.GetFloat(BlurStrength));
         blurActualMaterial.SetFloat(TintStrength, runtimePreviewMaterial.GetFloat(TintStrength));
         blurActualMaterial.SetColor(Tint, runtimePreviewMaterial.GetColor(Tint));
 
@@ -90,7 +94,7 @@ public class BlurFilterSettingsUI : MonoBehaviour
         SavedFilterSelection.SelectedMaterial = blurActualMaterial;
         SavedFilterSelection.SelectedPrefab = selectedPrefab;
 
-        SavedFilterSelection.BlurRadius = runtimePreviewMaterial.GetFloat(BlurRadius);
+        SavedFilterSelection.BlurStrength = runtimePreviewMaterial.GetFloat(BlurStrength);
         SavedFilterSelection.BlurTintStrength = runtimePreviewMaterial.GetFloat(TintStrength);
 
         SceneManager.LoadScene(passthroughSceneName);

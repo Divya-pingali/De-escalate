@@ -48,6 +48,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _BlurRadius: 0.006
+    - _BlurStrength: 1
     - _EdgeFeather: 0.003
     - _PreviewEye: 0
     - _QuadFeather: 0.005
