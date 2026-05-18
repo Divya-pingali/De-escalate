@@ -5,7 +5,6 @@
 #
 # This template is maintained from the gitattributes/gitattributes repository
 # and distributed under MIT License.
-
 # Define macros (only works in top-level gitattributes files)
 [attr]lfs               filter=lfs diff=lfs merge=lfs -text
 [attr]unity-json        eol=lf linguist-language=json
@@ -149,5 +148,6 @@ Packages/packages-lock.json linguist-generated
 *.skel.bytes            lfs
 # Exceptions for .asset files such as lightning pre-baking
 LightingData.asset     binary
+*.onnx filter=lfs diff=lfs merge=lfs -text
 Assets/Models/model-1.onnx filter=lfs diff=lfs merge=lfs -text
 Assets/Models/test.onnx filter=lfs diff=lfs merge=lfs -text
