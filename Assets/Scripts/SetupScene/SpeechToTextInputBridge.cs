@@ -3,33 +3,59 @@ using TMPro;
 using UnityEngine;
 using Meta.XR.BuildingBlocks.AIBlocks;
 
-public class SpeechToTextInputBridge : MonoBehaviour
+public class SpeechToTextMultiInputBridge : MonoBehaviour
 {
+    [System.Serializable]
+    public class SpeechInputTarget
+    {
+        public string label;
+        public TMP_InputField inputField;
+        public GameObject listeningIndicator;
+
+        [HideInInspector] public string latestText;
+    }
+
     [Header("Speech To Text")]
     [SerializeField] private SpeechToTextAgent speechToTextAgent;
 
-    [Header("UI")]
-    [SerializeField] private TMP_InputField inputField;
-    [SerializeField] private GameObject listeningIndicator;
+    [Header("Input Targets")]
+    [SerializeField] private SpeechInputTarget[] targets;
 
     [Header("Settings")]
     [SerializeField] private bool addSpaceBetweenTranscripts = true;
 
     private bool isListening;
+    private int activeTargetIndex = -1;
     private Coroutine restartCoroutine;
 
     private void Awake()
     {
-        if (listeningIndicator != null)
-            listeningIndicator.SetActive(false);
+        HideAllListeningIndicators();
 
-        Debug.Log("SpeechToTextInputBridge loaded.");
+        if (targets != null)
+        {
+            for (int i = 0; i < targets.Length; i++)
+            {
+                int capturedIndex = i;
+
+                if (targets[i] != null && targets[i].inputField != null)
+                {
+                    targets[i].latestText = targets[i].inputField.text;
+
+                    targets[i].inputField.onValueChanged.AddListener(value =>
+                    {
+                        targets[capturedIndex].latestText = value;
+                    });
+                }
+            }
+        }
+
+        Debug.Log("SpeechToTextMultiInputBridge loaded.");
     }
 
-    // Mic button OnClick should call this
-    public void ToggleMic()
+    public void ToggleMicForTarget(int targetIndex)
     {
-        Debug.Log("Mic button clicked.");
+        Debug.Log("Mic button clicked for target index: " + targetIndex);
 
         if (speechToTextAgent == null)
         {
@@ -37,29 +63,54 @@ public class SpeechToTextInputBridge : MonoBehaviour
             return;
         }
 
-        if (inputField == null)
+        if (!IsValidTargetIndex(targetIndex))
         {
-            Debug.LogError("Input field is not assigned.");
+            Debug.LogError("Invalid target index: " + targetIndex);
+            return;
+        }
+
+        if (targets[targetIndex].inputField == null)
+        {
+            Debug.LogError("Input field is not assigned for target index: " + targetIndex);
+            return;
+        }
+
+        if (isListening && activeTargetIndex == targetIndex)
+        {
+            StopListening();
             return;
         }
 
         if (isListening)
+        {
             StopListening();
-        else
-            StartListening();
+        }
+
+        StartListeningForTarget(targetIndex);
     }
 
-    public void StartListening()
+    public void StartListeningForTarget(int targetIndex)
     {
         if (speechToTextAgent == null)
             return;
 
-        Debug.Log("Starting Speech To Text...");
+        if (!IsValidTargetIndex(targetIndex))
+            return;
 
+        if (targets[targetIndex].inputField == null)
+            return;
+
+        Debug.Log("Starting Speech To Text for target index: " + targetIndex);
+
+        activeTargetIndex = targetIndex;
         isListening = true;
 
-        if (listeningIndicator != null)
-            listeningIndicator.SetActive(true);
+        targets[targetIndex].latestText = targets[targetIndex].inputField.text;
+
+        HideAllListeningIndicators();
+
+        if (targets[targetIndex].listeningIndicator != null)
+            targets[targetIndex].listeningIndicator.SetActive(true);
 
         speechToTextAgent.ClearLastTranscript();
         speechToTextAgent.StartListening();
@@ -73,6 +124,7 @@ public class SpeechToTextInputBridge : MonoBehaviour
         Debug.Log("Stopping Speech To Text...");
 
         isListening = false;
+        activeTargetIndex = -1;
 
         if (restartCoroutine != null)
         {
@@ -82,31 +134,42 @@ public class SpeechToTextInputBridge : MonoBehaviour
 
         speechToTextAgent.StopNow();
 
-        if (listeningIndicator != null)
-            listeningIndicator.SetActive(false);
+        HideAllListeningIndicators();
     }
 
-    // Connect SpeechToTextAgent.onTranscript(string) to this
     public void HandleTranscript(string transcript)
     {
         Debug.Log("Transcript received: " + transcript);
 
-        if (inputField == null)
+        if (!isListening || activeTargetIndex < 0)
         {
-            Debug.LogError("Input field is missing.");
+            Debug.LogWarning("Transcript received, but no active input target is selected.");
+            return;
+        }
+
+        if (!IsValidTargetIndex(activeTargetIndex))
+        {
+            Debug.LogError("Active target index is invalid: " + activeTargetIndex);
+            return;
+        }
+
+        TMP_InputField activeInputField = targets[activeTargetIndex].inputField;
+
+        if (activeInputField == null)
+        {
+            Debug.LogError("Active input field is missing.");
             return;
         }
 
         if (!string.IsNullOrWhiteSpace(transcript))
         {
-            AppendTranscriptToInput(transcript.Trim());
+            AppendTranscriptToInput(activeTargetIndex, transcript.Trim());
         }
         else
         {
             Debug.LogWarning("Transcript was empty.");
         }
 
-        // Keep listening until the mic is toggled off
         if (isListening)
         {
             if (restartCoroutine != null)
@@ -116,36 +179,63 @@ public class SpeechToTextInputBridge : MonoBehaviour
         }
     }
 
-    private void AppendTranscriptToInput(string transcript)
+    private void AppendTranscriptToInput(int targetIndex, string transcript)
     {
-        string currentText = inputField.text;
+        SpeechInputTarget target = targets[targetIndex];
+        TMP_InputField targetInputField = target.inputField;
+
+        string currentText = target.latestText;
+
+        string newText;
 
         if (string.IsNullOrWhiteSpace(currentText))
         {
-            inputField.SetTextWithoutNotify(transcript);
+            newText = transcript;
         }
         else
         {
             string separator = addSpaceBetweenTranscripts ? " " : "";
-            inputField.SetTextWithoutNotify(currentText.TrimEnd() + separator + transcript);
+            newText = currentText.TrimEnd() + separator + transcript;
         }
 
-        inputField.caretPosition = inputField.text.Length;
-        inputField.ForceLabelUpdate();
+        target.latestText = newText;
+
+        targetInputField.text = newText;
+        targetInputField.caretPosition = targetInputField.text.Length;
+        targetInputField.stringPosition = targetInputField.text.Length;
+        targetInputField.ForceLabelUpdate();
     }
 
     private IEnumerator RestartListeningAfterTranscript()
     {
         yield return null;
 
-        if (!isListening)
+        if (!isListening || activeTargetIndex < 0)
             yield break;
 
-        Debug.Log("Restarting Speech To Text...");
+        Debug.Log("Restarting Speech To Text for target index: " + activeTargetIndex);
 
         speechToTextAgent.ClearLastTranscript();
         speechToTextAgent.StartListening();
 
         restartCoroutine = null;
     }
+
+    private bool IsValidTargetIndex(int index)
+    {
+        return targets != null && index >= 0 && index < targets.Length;
+    }
+
+    private void HideAllListeningIndicators()
+    {
+        if (targets == null)
+            return;
+
+        foreach (SpeechInputTarget target in targets)
+        {
+            if (target != null && target.listeningIndicator != null)
+                target.listeningIndicator.SetActive(false);
+        }
+    }
+
 }

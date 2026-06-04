@@ -57,7 +57,7 @@ public class STTWakeWordListener : MonoBehaviour
         AddLine("STT Wake Word Listener ready.");
     }
 
-    private void Start()
+    private void OnEnable()
     {
         if (startListeningOnStart)
         {

@@ -5,22 +5,22 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/ModernStartScene.unity
     guid: 4d8727688c40f9d419b27be70be221aa
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/ModernSettingsScene.unity
     guid: d2494ef07c75fcf439fbc37b5425e95d
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/SetupScene.unity
     guid: 3d512d535c68a0b43af87a4eb8dc28ce
   - enabled: 0
     path: Assets/Scenes/ModernFiltersScene.unity
     guid: 8b359be211325934586961ad242ddc61
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ShaderScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Walkthrough.unity
     guid: 70cf757871c93f64bb3e70d152936422
   - enabled: 0

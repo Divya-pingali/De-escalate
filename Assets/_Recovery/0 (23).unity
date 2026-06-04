@@ -281,11 +281,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79c780721cf4e2a4fb00ddc2399e6463, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LeftPinchSceneLoader
-  sceneName1: ModernFiltersScene
-  scene1Finger: 1
-  sceneName2: ModernSettingsScene
-  scene2Finger: 3
+  sceneName: ModernFiltersScene
   hand: {fileID: 1154549530}
+  handActionFinger: 1
   handActionCooldown: 1
 --- !u!1 &363161458
 GameObject:
@@ -496,6 +494,58 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!1 &447972058
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 447972060}
+  - component: {fileID: 447972059}
+  m_Layer: 0
+  m_Name: Object Toggle Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &447972059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447972058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d8d910b972d7c94c9a8a35ed81635a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RightHandPinchToggleObjects
+  rightHand: {fileID: 1814614143}
+  openAIRealtime: {fileID: 1762151647}
+  speechToTextObject: {fileID: 846625524}
+  wakeWordListenerObject: {fileID: 1190645282}
+  aiModeStartsOn: 0
+  micSwitchDelay: 0.35
+  aiModeOn: 0
+  wasPinchingLastFrame: 0
+--- !u!4 &447972060
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447972058}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &504711360
 GameObject:
   m_ObjectHideFlags: 0
@@ -1797,7 +1847,7 @@ MonoBehaviour:
     casually talking, talk casually.
 
     If Toby asks a technical or app question,
-    answer technically and directly. Don''t force reassurance in every sentence.'
+    answer technically and directly.'
   passthroughSnapshot: {fileID: 370339932}
   captureSnapshotOnSpeechStarted: 1
   speechSnapshotCooldownSeconds: 1
@@ -5609,21 +5659,6 @@ MonoBehaviour:
           DisplayName: 
         memberName: _activeObjectBlockerSettings
         _editorSelectedGizmoIndex: 0
-      - enabled: 0
-        typeName: Meta.XR.BuildingBlocks.AIBlocks.ObjectDetectionVisualizer, Meta.XR.BuildingBlocks.AIBlocks,
-          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        attribute:
-          GizmoType: 0
-          ShowGizmoByDefault: 0
-          Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-          Tweakable: 1
-          Min: 0
-          Max: 1
-          Category: 
-          Description: 
-          DisplayName: 
-        memberName: visualScalePaddingMultiplier
-        _editorSelectedGizmoIndex: 0
     - enabled: 0
       typeName: Meta.XR.BuildingBlocks.AIBlocks.DepthTextureAccess, Meta.XR.BuildingBlocks.AIBlocks,
         Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -6435,7 +6470,6 @@ MonoBehaviour:
   objectBlockerScaleMultiplier: 1.15
   objectBlockerOpacity: 1
   autoFitObjectBlockerToDetection: 1
-  visualScalePaddingMultiplier: 1.06
   showBoundingBoxes: 1
   showText: 0
 --- !u!114 &2128517347
@@ -6451,7 +6485,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   providerAsset: {fileID: 11400000, guid: 41bcc1cef0e37b9498fde9e872ba5c8d, type: 2}
-  minConfidence: 0.45
+  minConfidence: 0.3
   detectEveryNFrames: 1
   onDetectionResponseReceived:
     m_PersistentCalls:
@@ -8756,3 +8790,4 @@ SceneRoots:
   - {fileID: 370339934}
   - {fileID: 1762151646}
   - {fileID: 654697610}
+  - {fileID: 447972060}

@@ -7,7 +7,8 @@ public static class SavedFilterSelection
         None,
         Blur,
         Pixelate,
-        Block
+        Block,
+        ObjectBlocker
     }
 
     public static FilterType SelectedFilter = FilterType.None;
@@ -22,4 +23,7 @@ public static class SavedFilterSelection
     public static float PixelTintStrength = 0f;
 
     public static float BlockStrength = 1f;
+
+    public static float ObjectBlockerOpacity = 1f;
+    public static float ObjectBlockerScaleMultiplier = 1.15f;
 }
