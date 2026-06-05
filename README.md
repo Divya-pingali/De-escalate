@@ -1,18 +1,36 @@
-
 # De-Escalate
 
-De-Escalate is an AR assistive system designed to help people manage specific phobias in everyday environments by modifying how feared objects appear in real time. The system uses a combination of realtime object detection, GPU shaders, and adaptive overlays to reduce visual details that trigger distress, while keeping the user present in their surroundings. Users remain in control via adjustable intensity sliders and hands-free voice commands; an AI-guided voice mode offers contextual reframing, grounding guidance, and breathing prompts to provide emotional support during encounters.
+De-Escalate is an AR assistive system designed to help people manage specific phobias when they unexpectedly encounter feared objects in everyday environments. In real time, the system detects the fear object and changes how it appears through visual filters such as blur, pixelation, blocking, or calming overlays, so the user can reduce frightening details while still staying aware of their surroundings.
 
-This project is prototyped for passthrough XR devices (development tested on Meta Quest 3) and demonstrates how layered visual filters and conversational assistance can create a graded exposure pathway — from strong visual blocking to subtle softening — tailored to user comfort.
+This project is important because specific phobias can make everyday situations feel overwhelming, even when the object is not physically dangerous. De-Escalate gives users more control in the moment by letting them adjust how much of the feared object they want to see. Instead of fully avoiding the trigger, the system supports a gradual and more manageable experience based on the user’s comfort level.
 
 ## Features
 
-- Real-time detection (YOLOv8 prototype): a detection pipeline identifies visual triggers in the camera feed and supplies bounding regions for overlays. Prototyped with YOLOv8 on mobile and Quest devices to validate latency and reliability.
-- Visual filters (blur, pixelate, block, replace): GPU-powered shaders and prefab overlays alter the appearance of detected objects. Filters range from full blocking to partial softening, allowing graded exposure.
-- Adjustable intensity & controls: sliders in the UI and voice commands let users increase or decrease effect strength on the fly, enabling gradual tolerance building without removing situational awareness.
-- AI Voice Mode: a contextual voice assistant that offers purposeful reframing, guided breathing, and short coaching prompts. Designed for hands-free emotional support rather than clinical treatment.
-- Onboarding, safety & settings: first-run walkthrough, emergency stop/quick-exit, and per-user settings (phobia preferences, emergency contacts, AI voice options) to keep testing safe and configurable.
+### 1. Onboarding and User Settings
 
+The app begins with an onboarding process where users can enter basic information about their phobia, chosen fear object, trigger details, comfort level, and emergency contact. These settings help personalize the experience so the system can respond based on the user’s specific fear and preferences.
+
+### 2. Adjustable Filters
+
+Users can change how the detected object appears in real time using filters such as blur, pixelation, blocking, or visual replacement. The intensity of each filter can be increased or decreased at any time, allowing users to move from stronger visual protection to lighter softening as they feel more comfortable.
+
+### 3. Voice Instructions for Changing Filters
+
+Users can control the filters hands-free using voice commands. For example, they can say commands like “increase pixelation,” “decrease blur,” “block the object,” or “make it softer.” This allows users to adjust the experience quickly without opening menus during a stressful moment.
+
+### 4. AI Voice Mode
+
+AI Voice Mode lets users talk to an AI assistant during the encounter. The assistant can provide calming guidance, breathing prompts, grounding support, and positive reframing of the feared object. This makes the experience more personal and supportive, while keeping the user in control.
+
+## Tech Stack
+
+- Unity game engine
+- Meta XR SDK for passthrough XR and headset interaction
+- Ultralytics YOLOv8 for object detection based on the user’s chosen fear object
+- GPU shaders for real-time visual filters and appearance changes
+- Object overlays for replacing or softening detected triggers
+- OpenAI Realtime API for AI Voice Mode integration
+- Unity UI Assets for onboarding, settings, and filter controls
 
 ## Setup
 
@@ -20,12 +38,3 @@ This project is prototyped for passthrough XR devices (development tested on Met
 
 ```bash
 git clone <repo-url>
-```
-
-2. Open the project in Unity Hub (select the project folder or open ShaderObjectDetection.slnx) and allow Unity to resolve packages.
-
-3. Install/enable required packages via Package Manager: `TextMesh Pro`, `Input System` (optional), `XR Plugin Management` and the appropriate Quest/Oculus loader if testing on headset.
-
-4. Open a sample scene under `Assets/Scenes/` and press Play to test in the Editor.
-
-5. To build: `File -> Build Settings`, choose platform, add scenes, and click Build.
