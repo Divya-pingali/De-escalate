@@ -1,0 +1,1583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTypeDate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TypeDate>
+    <guid>8f0250f80f43c5a47b338197fb2497e9</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/AssetCollector.cs</fileName>
+    <timeStamp>2026-06-05T15:12:29.6329547+05:30</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.AssetCollector</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>909e40ab52dee8d49a7a7be162f0a219</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/AssetReferenceCollection.cs</fileName>
+    <timeStamp>2026-06-05T15:12:29.6329547+05:30</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.AssetReferenceCollection</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3ca89935a0ee74d4383045e6a8a31a99</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/ClassReferenceCollection.cs</fileName>
+    <timeStamp>2026-06-05T15:12:29.6349718+05:30</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.ClassReferenceCollection</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f1c2a6484bbbed0499f81b91d1870ece</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/CollectionData.cs</fileName>
+    <timeStamp>2026-06-05T15:12:29.6349718+05:30</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.CollectionData</string>
+      <string>UnitySweeper.TypeDate</string>
+      <string>UnitySweeper.IReferenceCollection</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>035b2c7d44940044493cdb01e948630f</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/FindUnusedAssetsWindow.cs</fileName>
+    <timeStamp>2026-06-05T15:12:29.6349718+05:30</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.FindUnusedAssetsWindow</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>02ec70b4cfd92124483a77b36c21bea1</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/ShaderReferenceCollection.cs</fileName>
+    <timeStamp>2026-06-05T15:12:29.6349718+05:30</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.ShaderReferenceCollection</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>612730812c4a5d742949aec1dcd72bc5</guid>
+    <fileName>Assets/Scripts/AIManager.cs</fileName>
+    <timeStamp>2026-04-30T02:15:15.7601362+05:30</timeStamp>
+    <typeFullName>
+      <string>AIManager</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2ce9be547e1b9a447bf65fcc80e607fa</guid>
+    <fileName>Assets/Scripts/ApplySavedFilterInPassthroughScene.cs</fileName>
+    <timeStamp>2026-05-19T04:00:41.228651+05:30</timeStamp>
+    <typeFullName>
+      <string>ApplySavedFilterInPassthroughScene</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ba90094aeaac46744ab9e8b5d7b52552</guid>
+    <fileName>Assets/Scripts/AppNavigationManager.cs</fileName>
+    <timeStamp>2026-05-11T19:10:54.1020867+05:30</timeStamp>
+    <typeFullName>
+      <string>AppNavigationManager</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7e3ebcae5cade774db1adaaaaec21c0d</guid>
+    <fileName>Assets/Scripts/AppVoiceWakeCommand.cs</fileName>
+    <timeStamp>2026-05-18T22:27:39.2897202+05:30</timeStamp>
+    <typeFullName>
+      <string>AppVoiceWakeCommand</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>951c3c6d60fcc19429939c736c7d5a34</guid>
+    <fileName>Assets/Scripts/BlockStrengthAdjuster.cs</fileName>
+    <timeStamp>2026-05-19T05:36:42.7438074+05:30</timeStamp>
+    <typeFullName>
+      <string>BlockStrengthAdjuster</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4454cefe8b9d1014ea5d8fbefbc7a0e7</guid>
+    <fileName>Assets/Scripts/BlurStrengthAdjuster.cs</fileName>
+    <timeStamp>2026-05-19T05:35:18.3048466+05:30</timeStamp>
+    <typeFullName>
+      <string>BlurStrengthAdjuster</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>78b283e6c791a3140a00807a8e4854dd</guid>
+    <fileName>Assets/Scripts/ContinuousVoiceListener.cs</fileName>
+    <timeStamp>2026-05-18T01:51:16.6245193+05:30</timeStamp>
+    <typeFullName>
+      <string>StartVoiceOnLaunch</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>da8a39477662f9242a1a44ecb0160a53</guid>
+    <fileName>Assets/Scripts/ConversationManager.cs</fileName>
+    <timeStamp>2026-05-12T19:24:54.9184652+05:30</timeStamp>
+    <typeFullName>
+      <string>ConversationManager</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>79c780721cf4e2a4fb00ddc2399e6463</guid>
+    <fileName>Assets/Scripts/LeftPinchSceneLoader.cs</fileName>
+    <timeStamp>2026-05-21T03:22:28.7913164+05:30</timeStamp>
+    <typeFullName>
+      <string>LeftPinchSceneLoader</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>bbc91e374feb60e448d83fdd71c5d261</guid>
+    <fileName>Assets/Scripts/ObjectDetectionMeshVisualizer.cs</fileName>
+    <timeStamp>2026-04-22T13:17:47.9132343+05:30</timeStamp>
+    <typeFullName>
+      <string>Meta.XR.BuildingBlocks.AIBlocks.ObjectDetectionMeshVisualizer</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>73071e631cf217343b01e9953ba620ba</guid>
+    <fileName>Assets/Scripts/OpenAIRealtimeQuestDirect.cs</fileName>
+    <timeStamp>2026-05-19T13:11:22.3703286+05:30</timeStamp>
+    <typeFullName>
+      <string>OpenAIRealtimeQuestDirect</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>fb463e140128f0f40b5b583a90f54a68</guid>
+    <fileName>Assets/Scripts/QuestPassthroughSnapshot.cs</fileName>
+    <timeStamp>2026-05-19T13:18:43.6101366+05:30</timeStamp>
+    <typeFullName>
+      <string>QuestPassthroughSnapshot</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3f607eef94d34fc4cafb3eab262d6349</guid>
+    <fileName>Assets/Scripts/resizeComponent.cs</fileName>
+    <timeStamp>2026-04-19T06:27:42.9132928+05:30</timeStamp>
+    <typeFullName>
+      <string>FitObjectToBoundingBox</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d4ffec24182d2c149b90d652c2fc9de5</guid>
+    <fileName>Assets/Scripts/RightHandPixelSizeAdjuster.cs</fileName>
+    <timeStamp>2026-05-19T05:33:05.3667039+05:30</timeStamp>
+    <typeFullName>
+      <string>RightHandPixelSizeAdjuster</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2856092ffe6abeb4ba462ac431d01e19</guid>
+    <fileName>Assets/Scripts/SelectorImageChanger.cs</fileName>
+    <timeStamp>2026-05-12T22:42:55.7093451+05:30</timeStamp>
+    <typeFullName>
+      <string>SelectorImageChanger</string>
+      <string>SelectorImageChanger+ImageMode</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3713a8630ef34304ea78f25bd8a10575</guid>
+    <fileName>Assets/Scripts/StereoCameraMappingController.cs</fileName>
+    <timeStamp>2026-05-10T17:52:55.0001163+05:30</timeStamp>
+    <typeFullName>
+      <string>QuestCameraKit.CameraMapping.StereoCameraMappingController</string>
+      <string>QuestCameraKit.CameraMapping.StereoCameraMappingController+ShaderMode</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ef0ef4995331f0a45a27b24986269eaa</guid>
+    <fileName>Assets/Scripts/STTCommandController.cs</fileName>
+    <timeStamp>2026-05-18T03:10:03.8694229+05:30</timeStamp>
+    <typeFullName>
+      <string>STTCommandManager</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e512f4b059e5fe047bc76f2f2b7c9fb0</guid>
+    <fileName>Assets/Scripts/STTHeadsetDebugger.cs</fileName>
+    <timeStamp>2026-05-18T22:51:36.0284174+05:30</timeStamp>
+    <typeFullName>
+      <string>STTHeadsetDebugger</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c0bb4fe5dd5dbb842b8bd4b66afeac6a</guid>
+    <fileName>Assets/Scripts/STTWakeCommand.cs</fileName>
+    <timeStamp>2026-05-18T20:56:27.992847+05:30</timeStamp>
+    <typeFullName>
+      <string>STTWakeCommand</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a8de8f6de0fef24498b845777c9bb21f</guid>
+    <fileName>Assets/Scripts/STTWakeWordListener.cs</fileName>
+    <timeStamp>2026-05-19T09:32:19.8870965+05:30</timeStamp>
+    <typeFullName>
+      <string>STTWakeWordListener</string>
+      <string>STTWakeWordListener+WakeWordEvent</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>bc85486ce5c127649be1e6167f9500e9</guid>
+    <fileName>Assets/Scripts/UserDataManager.cs</fileName>
+    <timeStamp>2026-05-19T12:11:43.2715767+05:30</timeStamp>
+    <typeFullName>
+      <string>UserDataManager</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ea7bdf6e15b92ec4ba9a7d6f2dc9f94e</guid>
+    <fileName>Assets/Scripts/FiltersMenuUIManager/BlockFilterSettingsUI.cs</fileName>
+    <timeStamp>2026-05-10T18:51:58.6771503+05:30</timeStamp>
+    <typeFullName>
+      <string>BlockFilterSettingsUI</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3ca031f3c35596b43956f0e394a32897</guid>
+    <fileName>Assets/Scripts/FiltersMenuUIManager/BlurFilterSettingsUI.cs</fileName>
+    <timeStamp>2026-05-19T02:08:22.5484836+05:30</timeStamp>
+    <typeFullName>
+      <string>BlurFilterSettingsUI</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7d09506c95e6a624c990f725cda3f362</guid>
+    <fileName>Assets/Scripts/FiltersMenuUIManager/FilterUIActivator.cs</fileName>
+    <timeStamp>2026-05-10T02:15:17.6262764+05:30</timeStamp>
+    <typeFullName>
+      <string>FilterUISelector</string>
+      <string>FilterUISelector+FilterUIItem</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>58fd6ea67900b334bba0ff98ad4f88d7</guid>
+    <fileName>Assets/Scripts/FiltersMenuUIManager/ObjectBlockerFilterSettingsUI.cs</fileName>
+    <timeStamp>2026-05-19T04:44:12.7365547+05:30</timeStamp>
+    <typeFullName>
+      <string>ObjectBlockerFilterSettingsUI</string>
+      <string>ObjectBlockerFilterSettingsUI+ObjectBlockerOption</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>cb1801a80b6d9624995cf93675bf92ff</guid>
+    <fileName>Assets/Scripts/FiltersMenuUIManager/PixelateFilterSettingsUI.cs</fileName>
+    <timeStamp>2026-05-19T02:07:44.3651284+05:30</timeStamp>
+    <typeFullName>
+      <string>PixelateFilterSettingsUI</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c7445fd0027206a4da6855bfaed733ad</guid>
+    <fileName>Assets/Scripts/FiltersMenuUIManager/SavedFilterSelection.cs</fileName>
+    <timeStamp>2026-05-19T03:22:09.1308247+05:30</timeStamp>
+    <typeFullName>
+      <string>SavedFilterSelection</string>
+      <string>SavedFilterSelection+FilterType</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5c07d06f56c028349ab40e22ff807e41</guid>
+    <fileName>Assets/Scripts/FiltersMenuUIManager/ThumbnailHoverEffect.cs</fileName>
+    <timeStamp>2026-05-19T05:03:24.7186371+05:30</timeStamp>
+    <typeFullName>
+      <string>ThumbnailHoverEffect</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>cd2402efefa9bc342b67aaa99cc0a40e</guid>
+    <fileName>Assets/Scripts/SetupScene/SpeechToTextInputBridge.cs</fileName>
+    <timeStamp>2026-05-19T06:29:48.851621+05:30</timeStamp>
+    <typeFullName>
+      <string>SpeechToTextMultiInputBridge</string>
+      <string>SpeechToTextMultiInputBridge+SpeechInputTarget</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>01e0d0dd119471f4a8203d034e29193d</guid>
+    <fileName>Assets/Scripts/SetupScene/UserDataSceneBlueprintBinder.cs</fileName>
+    <timeStamp>2026-05-19T12:46:44.5439717+05:30</timeStamp>
+    <typeFullName>
+      <string>UserDataSceneBlueprintBinder</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1dbf15b14d210014ca8bad919efec670</guid>
+    <fileName>Assets/Scripts/SetupScene/WindowManager.cs</fileName>
+    <timeStamp>2026-05-11T13:46:48.8771557+05:30</timeStamp>
+    <typeFullName>
+      <string>WindowManager</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>fcf7219bab7fe46a1ad266029b2fee19</guid>
+    <fileName>Assets/TutorialInfo/Scripts/Readme.cs</fileName>
+    <timeStamp>2025-01-31T00:49:37+05:30</timeStamp>
+    <typeFullName>
+      <string>Readme</string>
+      <string>Readme+Section</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d56d6276f62057544ab456bfe1a8116b</guid>
+    <fileName>Assets/Modern UI Pack/Editor/Scripts/ContextMenu.cs</fileName>
+    <timeStamp>2025-08-01T11:34:30+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.ContextMenu</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b7ab3ee8e977e594387fbced988525d3</guid>
+    <fileName>Assets/Modern UI Pack/Editor/Scripts/InitMUIP.cs</fileName>
+    <timeStamp>2025-08-01T11:33:48+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.InitMUIP</string>
+      <string>Michsky.MUIP.InitMUIP+InitOnLoad</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5d218e07e7315e243acdfcc700d01eb5</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Button/ButtonManager.cs</fileName>
+    <timeStamp>2025-08-01T11:31:44+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.ButtonManager</string>
+      <string>Michsky.MUIP.ButtonManager+AnimationSolution</string>
+      <string>Michsky.MUIP.ButtonManager+RippleUpdateMode</string>
+      <string>Michsky.MUIP.ButtonManager+Padding</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4027e626241ca4140aa30808faae978a</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Button/ButtonManagerEditor.cs</fileName>
+    <timeStamp>2025-08-01T11:31:13+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.ButtonManagerEditor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5e4a4384d3c229846b0d84dc8ec948dd</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Charts/PieChart.cs</fileName>
+    <timeStamp>2025-08-01T11:31:48+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.PieChart</string>
+      <string>Michsky.MUIP.PieChart+PieChartDataNode</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e02c02515eb09c04caeb0ab2d66d83da</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Charts/PieChartEditor.cs</fileName>
+    <timeStamp>2025-08-01T11:34:41+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.PieChartEditor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>fe4f202dc85015b48aa586eba6d38692</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Context Menu/ContextMenuContent.cs</fileName>
+    <timeStamp>2025-08-01T11:35:21+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.ContextMenuContent</string>
+      <string>Michsky.MUIP.ContextMenuContent+ContextItem</string>
+      <string>Michsky.MUIP.ContextMenuContent+SubMenuItem</string>
+      <string>Michsky.MUIP.ContextMenuContent+ContextItemType</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6027ca9dc17f95b4f8e126a1326329ea</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Context Menu/ContextMenuContentEditor.cs</fileName>
+    <timeStamp>2025-08-01T11:31:50+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.ContextMenuContentEditor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f93b797e33a2590489a95b86d8490887</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Context Menu/ContextMenuContentMobile.cs</fileName>
+    <timeStamp>2025-08-01T11:35:13+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.ContextMenuContentMobile</string>
+      <string>Michsky.MUIP.ContextMenuContentMobile+ContextItem</string>
+      <string>Michsky.MUIP.ContextMenuContentMobile+ContextItemType</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9021c5c7bd04ec245bf10c985a37c848</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Context Menu/ContextMenuManager.cs</fileName>
+    <timeStamp>2025-08-01T11:32:49+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.ContextMenuManager</string>
+      <string>Michsky.MUIP.ContextMenuManager+CameraSource</string>
+      <string>Michsky.MUIP.ContextMenuManager+SubMenuBehaviour</string>
+      <string>Michsky.MUIP.ContextMenuManager+CursorBoundHorizontal</string>
+      <string>Michsky.MUIP.ContextMenuManager+CursorBoundVertical</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>527585204cee0694b9800f8f51baace0</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Context Menu/ContextMenuManagerEditor.cs</fileName>
+    <timeStamp>2025-08-01T11:31:32+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.ContextMenuManagerEditor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5d93fb32bb7e8384d863c98e08445c2d</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Context Menu/ContextMenuSubMenu.cs</fileName>
+    <timeStamp>2025-08-01T11:31:47+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.ContextMenuSubMenu</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>95af5c5e221987642aecaf2d59a3469a</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Core/MUIPInternalTools.cs</fileName>
+    <timeStamp>2025-08-01T11:32:57+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.MUIPInternalTools</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a7afc8c12ad2e104ebc86906fc37ec31</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Demo/DemoElementSway.cs</fileName>
+    <timeStamp>2025-08-01T11:33:24+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.DemoElementSway</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5fa48de8543315549bf27cc38c7eceea</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Demo/DemoElementSwayParent.cs</fileName>
+    <timeStamp>2025-08-01T11:31:49+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.DemoElementSwayParent</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e373f9a5f6c9bab449c78beab64a8d53</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Demo/DemoListShadow.cs</fileName>
+    <timeStamp>2025-08-01T11:34:46+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.DemoListShadow</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1dfe135108c08d54d8978d026b05b601</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Demo/InputSystemChecker.cs</fileName>
+    <timeStamp>2025-08-01T11:30:33+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.InputSystemChecker</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>731973609e4a7a94aa4d2f33c86dc13f</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Demo/LaunchURL.cs</fileName>
+    <timeStamp>2025-08-01T11:32:14+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.LaunchURL</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e3c6e5718ae5e9246af72590402986a6</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Dropdown/CustomDropdown.cs</fileName>
+    <timeStamp>2025-08-01T11:34:47+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.CustomDropdown</string>
+      <string>Michsky.MUIP.CustomDropdown+DropdownEvent</string>
+      <string>Michsky.MUIP.CustomDropdown+ItemTextChangedEvent</string>
+      <string>Michsky.MUIP.CustomDropdown+AnimationType</string>
+      <string>Michsky.MUIP.CustomDropdown+PanelDirection</string>
+      <string>Michsky.MUIP.CustomDropdown+Item</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>227402b59bd462249a7f83d4fee619fd</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Dropdown/CustomDropdownEditor.cs</fileName>
+    <timeStamp>2025-08-01T11:30:41+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.CustomDropdownEditor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9142f1b2d4f467c49af32a1445cf9117</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Dropdown/DropdownMultiSelect.cs</fileName>
+    <timeStamp>2025-08-01T11:32:51+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.DropdownMultiSelect</string>
+      <string>Michsky.MUIP.DropdownMultiSelect+ToggleEvent</string>
+      <string>Michsky.MUIP.DropdownMultiSelect+AnimationType</string>
+      <string>Michsky.MUIP.DropdownMultiSelect+Item</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>11fa941289c070249b66bfda86e99c36</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Dropdown/DropdownMultiSelectEditor.cs</fileName>
+    <timeStamp>2025-08-01T11:30:18+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.DropdownMultiSelectEditor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0b3d37a8c2278a54380cde1dbb7524d9</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Editor Handlers/MUIPEditorHandler.cs</fileName>
+    <timeStamp>2025-08-01T11:30:09+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.MUIPEditorHandler</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8562c788d402f1240b9ea895f147226e</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Horizontal Selector/CustomisedHorizontalSelector.cs</fileName>
+    <timeStamp>2026-05-10T00:29:06.1048914+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.CustomisedHorizontalSelector</string>
+      <string>Michsky.MUIP.CustomisedHorizontalSelector+SelectorEvent</string>
+      <string>Michsky.MUIP.CustomisedHorizontalSelector+ItemTextChangedEvent</string>
+      <string>Michsky.MUIP.CustomisedHorizontalSelector+Item</string>
+      <string>Michsky.MUIP.CustomisedHorizontalSelector+GeneratedInputType</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>125c77e2c7bf16f4792824151a1d9249</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Horizontal Selector/HorizontalSelector.cs</fileName>
+    <timeStamp>2026-05-12T22:38:38.0229197+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.HorizontalSelector</string>
+      <string>Michsky.MUIP.HorizontalSelector+SelectorEvent</string>
+      <string>Michsky.MUIP.HorizontalSelector+ItemTextChangedEvent</string>
+      <string>Michsky.MUIP.HorizontalSelector+Item</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4dc4a3eba298e1c4b851efe79a336cb5</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Horizontal Selector/HorizontalSelectorEditor.cs</fileName>
+    <timeStamp>2025-08-01T11:31:28+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.HorizontalSelectorEditor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>86b8e0ba11d23674b90c578d7eec2d09</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Icon/AnimatedIconHandler.cs</fileName>
+    <timeStamp>2025-08-01T11:32:34+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.AnimatedIconHandler</string>
+      <string>Michsky.MUIP.AnimatedIconHandler+PlayType</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0a014fb26f42dfc46937c175544fe894</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Icon/IconLibrary.cs</fileName>
+    <timeStamp>2025-08-01T11:30:06+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.IconLibrary</string>
+      <string>Michsky.MUIP.IconLibrary+IconItem</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1161e041bde9c9f4f9d1118349cd5968</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Icon/IconLibraryEditor.cs</fileName>
+    <timeStamp>2025-08-01T11:30:16+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.IconLibraryEditor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>603d9687b95941549aee6d293dae7de4</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Icon/IconManager.cs</fileName>
+    <timeStamp>2025-08-01T11:31:50+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.IconManager</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>cc8d4f7f18559ed43b3f3074a40553e7</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Icon/IconManagerEditor.cs</fileName>
+    <timeStamp>2025-08-01T11:34:19+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.IconManagerEditor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c65c7917835d8a04b94c8b906234b09e</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Input Field/CustomInputField.cs</fileName>
+    <timeStamp>2025-08-01T11:34:10+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.CustomInputField</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d4f4ae5cbba538d449b15cffc97daa7d</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Layout Group/LayoutGroupFix.cs</fileName>
+    <timeStamp>2025-08-01T11:34:29+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.LayoutGroupFix</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>675308088538b8340a8c91f8ac5d38e8</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Layout Group/RadialLayoutGroup.cs</fileName>
+    <timeStamp>2025-08-01T11:31:57+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.RadialLayoutGroup</string>
+      <string>Michsky.MUIP.RadialLayoutGroup+Direction</string>
+      <string>Michsky.MUIP.RadialLayoutGroup+ConstraintMode</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>079ef68e9c033fd47ad1ce2e4a5550f8</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Layout Group/RadialLayoutGroupEditor.cs</fileName>
+    <timeStamp>2025-08-01T11:30:04+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.RadialLayoutGroupEditor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>67a4caa482ba20f4a8749aba356f6fa9</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/ListView/ListView.cs</fileName>
+    <timeStamp>2025-08-01T11:31:58+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.ListView</string>
+      <string>Michsky.MUIP.ListView+ListItem</string>
+      <string>Michsky.MUIP.ListView+ListRow</string>
+      <string>Michsky.MUIP.ListView+RowType</string>
+      <string>Michsky.MUIP.ListView+RowCount</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e94e561fd83d42847a5ca2c2cf082bea</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/ListView/ListViewEditor.cs</fileName>
+    <timeStamp>2025-08-01T11:34:56+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.ListViewEditor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e4851166b6d5f47478c1c34aac226415</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/ListView/ListViewItem.cs</fileName>
+    <timeStamp>2025-08-01T11:34:49+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.ListViewItem</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a6980d488c131db45829d12b148fbb13</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/ListView/ListViewRow.cs</fileName>
+    <timeStamp>2025-08-01T11:33:22+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.ListViewRow</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8ff5b50d8ff89864090b86d1fee33b66</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Modal Window/ModalWindowManager.cs</fileName>
+    <timeStamp>2025-08-01T11:32:48+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.ModalWindowManager</string>
+      <string>Michsky.MUIP.ModalWindowManager+StartBehaviour</string>
+      <string>Michsky.MUIP.ModalWindowManager+CloseBehaviour</string>
+      <string>Michsky.MUIP.ModalWindowManager+OnEnableBehaviour</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a4a5d2752ec07da4aa46f6540abbd763</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Modal Window/ModalWindowManagerEditor.cs</fileName>
+    <timeStamp>2025-08-01T11:33:19+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.ModalWindowManagerEditor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4b4bbdcf873a4164eabf85f0d7820717</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Notification/NotificationManager.cs</fileName>
+    <timeStamp>2025-08-01T11:31:24+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.NotificationManager</string>
+      <string>Michsky.MUIP.NotificationManager+StartBehaviour</string>
+      <string>Michsky.MUIP.NotificationManager+CloseBehaviour</string>
+      <string>Michsky.MUIP.NotificationManager+SlideDirection</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b72fc390a6760374ba76d6ae40841bac</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Notification/NotificationManagerEditor.cs</fileName>
+    <timeStamp>2025-08-01T11:33:47+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.NotificationManagerEditor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1d6e5a79c713c094fb2ea4246d215d24</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Notification/NotificationStacking.cs</fileName>
+    <timeStamp>2025-08-01T11:30:33+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.NotificationStacking</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7b3d601986abab74cb6b3901c4bb2508</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Progress Bar/PBFilled.cs</fileName>
+    <timeStamp>2025-08-01T11:32:21+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.PBFilled</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>20c6dbf0102c7bc468113ccdd97dad83</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Progress Bar/ProgressBar.cs</fileName>
+    <timeStamp>2025-08-01T11:30:37+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.ProgressBar</string>
+      <string>Michsky.MUIP.ProgressBar+ProgressBarEvent</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e24fda0b81feb8343abb048c3c912da3</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Progress Bar/ProgressBarEditor.cs</fileName>
+    <timeStamp>2025-08-01T11:34:44+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.ProgressBarEditor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b0695615d5ce0f8469eb9b553116c527</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Rendering/Ripple.cs</fileName>
+    <timeStamp>2025-08-01T11:33:38+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.Ripple</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a9d2f9067277ade4e9b47012ea4d9e17</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Rendering/UIGradient.cs</fileName>
+    <timeStamp>2025-08-01T11:33:27+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.UIGradient</string>
+      <string>Michsky.MUIP.UIGradient+Type</string>
+      <string>Michsky.MUIP.UIGradient+Blend</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f37cb8af34d443a4d8447ecddc64f5af</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Rendering/UIGradientEditor.cs</fileName>
+    <timeStamp>2025-08-01T11:35:07+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.UIGradientEditor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>803cebee00d5c504e930205383017dc1</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Slider/RadialSlider.cs</fileName>
+    <timeStamp>2025-08-01T11:32:27+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.RadialSlider</string>
+      <string>Michsky.MUIP.RadialSlider+SliderEvent</string>
+      <string>Michsky.MUIP.RadialSlider+StartPoint</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b13417f09235b7c4f9e87f29093da488</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Slider/RadialSliderEditor.cs</fileName>
+    <timeStamp>2025-08-01T11:33:39+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.RadialSliderEditor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>323287a52e0836642bb7e541f4ed6416</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Slider/RangeMaxSlider.cs</fileName>
+    <timeStamp>2025-08-01T11:30:56+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.RangeMaxSlider</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>bec9b7e800825ee4bb3c622d02a73364</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Slider/RangeMinSlider.cs</fileName>
+    <timeStamp>2025-08-01T11:33:59+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.RangeMinSlider</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>09bc67870d6e747c79794142c4f06f22</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Slider/RangeSlider.cs</fileName>
+    <timeStamp>2025-08-01T11:30:06+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.RangeSlider</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>092a466539ee62b49bab58774f2e4d46</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Slider/SliderInput.cs</fileName>
+    <timeStamp>2025-08-01T11:30:05+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.SliderInput</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4ebbd33be3a73ca40aa6a4371ff9a6c6</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Slider/SliderManager.cs</fileName>
+    <timeStamp>2025-08-01T11:31:29+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.SliderManager</string>
+      <string>Michsky.MUIP.SliderManager+SliderEvent</string>
+      <string>Michsky.MUIP.SliderManager+DecimalFormat</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>70f5754df995225418ec38b440b4e75d</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Slider/SliderManagerEditor.cs</fileName>
+    <timeStamp>2025-08-01T11:32:09+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.SliderManagerEditor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4a058d8729a0602458c4c9045eeddbf6</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Switch/SwitchManager.cs</fileName>
+    <timeStamp>2025-08-01T11:31:22+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.SwitchManager</string>
+      <string>Michsky.MUIP.SwitchManager+SwitchEvent</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>64c43837553166847bd23a630a8ca39d</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Switch/SwitchManagerEditor.cs</fileName>
+    <timeStamp>2025-08-01T11:31:54+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.SwitchManagerEditor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>fa5100cea443dc7448b10a5f20698420</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Toggle/CustomToggle.cs</fileName>
+    <timeStamp>2025-08-01T11:35:16+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.CustomToggle</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7ea5d3b11d20e6a4f8d0daeb2bad0903</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Tools/ElementTabbing.cs</fileName>
+    <timeStamp>2025-08-01T11:32:25+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.ElementTabbing</string>
+      <string>Michsky.MUIP.ElementTabbing+ObjectType</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a81a9e081a4afa64dae6b9d42bc38c9f</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Tooltip/TooltipContent.cs</fileName>
+    <timeStamp>2025-08-01T11:33:25+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.TooltipContent</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f74f8e3213a5a144d801c9a0e3a84d80</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Tooltip/TooltipManager.cs</fileName>
+    <timeStamp>2025-08-01T11:35:11+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.TooltipManager</string>
+      <string>Michsky.MUIP.TooltipManager+CameraSource</string>
+      <string>Michsky.MUIP.TooltipManager+TransitionMode</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a94e92bd62020d54ebad68de9ce276bc</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Tooltip/TooltipManagerEditor.cs</fileName>
+    <timeStamp>2025-08-01T11:33:26+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.TooltipManagerEditor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>eb7cf53b7c3b36a4b9f4d2b688942503</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/UI Manager/UIManager.cs</fileName>
+    <timeStamp>2025-08-01T11:35:00+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.UIManager</string>
+      <string>Michsky.MUIP.UIManager+ModalWindowThemeType</string>
+      <string>Michsky.MUIP.UIManager+NotificationThemeType</string>
+      <string>Michsky.MUIP.UIManager+SliderThemeType</string>
+      <string>Michsky.MUIP.UIManager+ToggleThemeType</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>fa9c8e8ebd8e36245bbac0e6d6979363</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/UI Manager/UIManagerAnimatedIcon.cs</fileName>
+    <timeStamp>2025-08-01T11:35:17+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.UIManagerAnimatedIcon</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b01fef50de04046448865a6d70ddb9b7</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/UI Manager/UIManagerButton.cs</fileName>
+    <timeStamp>2025-08-01T11:33:37+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.UIManagerButton</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>354b0fb6987f0064fa5b7adcc22921a3</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/UI Manager/UIManagerButtonEditor.cs</fileName>
+    <timeStamp>2025-08-01T11:30:58+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.UIManagerButtonEditor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c3b2c9406b3305e4494ef26f3f5fe26d</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/UI Manager/UIManagerContextMenu.cs</fileName>
+    <timeStamp>2025-08-01T11:34:07+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.UIManagerContextMenu</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>639cf8fed6ecf0041a4ef80ea9cd214d</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/UI Manager/UIManagerCustom.cs</fileName>
+    <timeStamp>2025-08-01T11:31:53+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.UIManagerCustom</string>
+      <string>Michsky.MUIP.UIManagerCustom+ObjectType</string>
+      <string>Michsky.MUIP.UIManagerCustom+ColorType</string>
+      <string>Michsky.MUIP.UIManagerCustom+FontType</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>025076e9ea2db4748aaecbfb47809745</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/UI Manager/UIManagerDropdown.cs</fileName>
+    <timeStamp>2025-08-01T11:29:58+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.UIManagerDropdown</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4b5ddc5f89023bc448c7d4db08095515</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/UI Manager/UIManagerDropdownItem.cs</fileName>
+    <timeStamp>2025-08-01T11:31:25+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.UIManagerDropdownItem</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4497d8be01876a94082c1f68d86dc323</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/UI Manager/UIManagerEditor.cs</fileName>
+    <timeStamp>2025-08-01T11:31:15+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.UIManagerEditor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e882cff0df1ed284a8cfdf670297b01d</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/UI Manager/UIManagerHSelector.cs</fileName>
+    <timeStamp>2025-08-01T11:34:55+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.UIManagerHSelector</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d170bc6b162fcce46a456b2011fd50b4</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/UI Manager/UIManagerInputField.cs</fileName>
+    <timeStamp>2025-08-01T11:34:24+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.UIManagerInputField</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e577c30e78b6a8d428d2d7bc77913d0b</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/UI Manager/UIManagerModalWindow.cs</fileName>
+    <timeStamp>2025-08-01T11:34:50+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.UIManagerModalWindow</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>eb3339e2f5f66dd42b96285c9d99c82f</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/UI Manager/UIManagerNotification.cs</fileName>
+    <timeStamp>2025-08-01T11:34:59+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.UIManagerNotification</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b375103e3437031408a5c7d7c17d04a6</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/UI Manager/UIManagerPieChart.cs</fileName>
+    <timeStamp>2025-08-01T11:33:42+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.UIManagerPieChart</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>dea4139266751024f8662f14af08584d</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/UI Manager/UIManagerProgressBar.cs</fileName>
+    <timeStamp>2025-08-01T11:34:40+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.UIManagerProgressBar</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>be5fad699a120164d91f8b2f69924ad1</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/UI Manager/UIManagerProgressBarLoop.cs</fileName>
+    <timeStamp>2025-08-01T11:33:57+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.UIManagerProgressBarLoop</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>10f63550a22ba87428f516a14e52d5d8</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/UI Manager/UIManagerProgressBarLoopEditor.cs</fileName>
+    <timeStamp>2025-08-01T11:30:16+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.UIManagerProgressBarLoopEditor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e098a0a519700eb4094ec2c8b9d07b30</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/UI Manager/UIManagerScrollbar.cs</fileName>
+    <timeStamp>2025-08-01T11:34:42+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.UIManagerScrollbar</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ae2d1475ff8202447b792ea5e136014d</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/UI Manager/UIManagerSlider.cs</fileName>
+    <timeStamp>2025-08-01T11:33:34+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.UIManagerSlider</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7266b31f788ed3d4a9ede644825322bd</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/UI Manager/UIManagerSliderEditor.cs</fileName>
+    <timeStamp>2025-08-01T11:32:13+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.UIManagerSliderEditor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c7f637a1b5cac8548a4a1cf0615c2015</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/UI Manager/UIManagerSwitch.cs</fileName>
+    <timeStamp>2025-08-01T11:34:12+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.UIManagerSwitch</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>033273b6ffafa814cbd95d1b39b157d1</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/UI Manager/UIManagerToggle.cs</fileName>
+    <timeStamp>2025-08-01T11:29:59+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.UIManagerToggle</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>38efc2a00eadebc409b20491d68ef527</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/UI Manager/UIManagerTooltip.cs</fileName>
+    <timeStamp>2025-08-01T11:31:04+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.UIManagerTooltip</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>fbdb002fd0b22464c9f511beb2639e0e</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/UI Manager/UIManagerWindowManager.cs</fileName>
+    <timeStamp>2025-08-01T11:35:18+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.UIManagerWindowManager</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7847a689c7721eb4dba4344e727ab715</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Window/WindowDragger.cs</fileName>
+    <timeStamp>2025-08-01T11:32:17+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.WindowDragger</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>71a9c3d7f141d6240b6653d5c02f9462</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Window/WindowManager.cs</fileName>
+    <timeStamp>2025-08-01T11:32:12+05:30</timeStamp>
+    <typeFullName>
+      <string>WindowManager</string>
+      <string>Michsky.MUIP.WindowManager</string>
+      <string>Michsky.MUIP.WindowManager+WindowChangeEvent</string>
+      <string>Michsky.MUIP.WindowManager+WindowItem</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c84a94b099bc62645a689ebb5655db16</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Window/WindowManagerButton.cs</fileName>
+    <timeStamp>2025-08-01T11:34:13+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.WindowManagerButton</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3ee9440c25a849f42827a7d7662f1ff2</guid>
+    <fileName>Assets/Modern UI Pack/Scripts/Window/WindowManagerEditor.cs</fileName>
+    <timeStamp>2025-08-01T11:31:11+05:30</timeStamp>
+    <typeFullName>
+      <string>Michsky.MUIP.WindowManagerEditor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f970ea55f9f84bf79b05dab180b8c125</guid>
+    <fileName>Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs</fileName>
+    <timeStamp>2024-07-24T00:25:28+05:30</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.Benchmark01</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8ef7be1c625941f7ba8ed7cc71718c0d</guid>
+    <fileName>Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs</fileName>
+    <timeStamp>2024-07-24T00:25:28+05:30</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.Benchmark01_UGUI</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e8538afcddc14efbb5d9e94b7ae50197</guid>
+    <fileName>Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs</fileName>
+    <timeStamp>2024-07-24T00:25:28+05:30</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.Benchmark02</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a73109742c8d47ac822895a473300c29</guid>
+    <fileName>Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs</fileName>
+    <timeStamp>2024-07-24T00:25:28+05:30</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.Benchmark03</string>
+      <string>TMPro.Examples.Benchmark03+BenchmarkType</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>dc20866c0d5e413ab7559440e15333ae</guid>
+    <fileName>Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark04.cs</fileName>
+    <timeStamp>2024-07-24T00:25:28+05:30</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.Benchmark04</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2d687537154440a3913a9a3c7977978c</guid>
+    <fileName>Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs</fileName>
+    <timeStamp>2024-07-24T00:25:28+05:30</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.CameraController</string>
+      <string>TMPro.Examples.CameraController+CameraModes</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>53d91f98a2664f5cb9af11de72ac54ec</guid>
+    <fileName>Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs</fileName>
+    <timeStamp>2024-07-24T00:25:28+05:30</timeStamp>
+    <typeFullName>
+      <string>ChatController</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ac1eb05af6d391b4eb0f4c070a99f1d0</guid>
+    <fileName>Assets/TextMesh Pro/Examples &amp; Extras/Scripts/DropdownSample.cs</fileName>
+    <timeStamp>2024-07-24T00:25:28+05:30</timeStamp>
+    <typeFullName>
+      <string>DropdownSample</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a4b6f99e8bc54541bbd149b014ff441c</guid>
+    <fileName>Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs</fileName>
+    <timeStamp>2024-07-24T00:25:28+05:30</timeStamp>
+    <typeFullName>
+      <string>EnvMapAnimator</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4f19c7f94c794c5097d8bd11e39c750d</guid>
+    <fileName>Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs</fileName>
+    <timeStamp>2024-07-24T00:25:28+05:30</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.ObjectSpin</string>
+      <string>TMPro.Examples.ObjectSpin+MotionType</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2787a46a4dc848c1b4b7b9307b614bfd</guid>
+    <fileName>Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs</fileName>
+    <timeStamp>2024-07-24T00:25:28+05:30</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.ShaderPropAnimator</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9eff140b25d64601aabc6ba32245d099</guid>
+    <fileName>Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SimpleScript.cs</fileName>
+    <timeStamp>2024-07-24T00:25:28+05:30</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.SimpleScript</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d412675cfb3441efa3bf8dcd9b7624dc</guid>
+    <fileName>Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SkewTextExample.cs</fileName>
+    <timeStamp>2024-07-24T00:25:28+05:30</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.SkewTextExample</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e32c266ee6204b21a427753cb0694c81</guid>
+    <fileName>Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs</fileName>
+    <timeStamp>2024-07-24T00:25:28+05:30</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.TeleType</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>43bcd35a1c0c40ccb6d472893fe2093f</guid>
+    <fileName>Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs</fileName>
+    <timeStamp>2024-07-24T00:25:28+05:30</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.TextConsoleSimulator</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a4d4c76e63944cba8c7d00f56334b98c</guid>
+    <fileName>Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs</fileName>
+    <timeStamp>2024-07-24T00:25:28+05:30</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.TextMeshProFloatingText</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>76c11bbcfddf44e0ba17d6c2751c8d84</guid>
+    <fileName>Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs</fileName>
+    <timeStamp>2024-07-24T00:25:28+05:30</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.TextMeshSpawner</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c3c1afeda5e545e0b19add5373896d2e</guid>
+    <fileName>Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs</fileName>
+    <timeStamp>2024-07-24T00:25:28+05:30</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.TMPro_InstructionOverlay</string>
+      <string>TMPro.Examples.TMPro_InstructionOverlay+FpsCounterAnchorPositions</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1a7eb92a01ed499a987bde9def05fbce</guid>
+    <fileName>Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs</fileName>
+    <timeStamp>2024-07-24T00:25:28+05:30</timeStamp>
+    <typeFullName>
+      <string>TMPro.TMP_DigitValidator</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6f2c5b59b6874405865e2616e4ec276a</guid>
+    <fileName>Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs</fileName>
+    <timeStamp>2024-07-24T00:25:28+05:30</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.TMP_ExampleScript_01</string>
+      <string>TMPro.Examples.TMP_ExampleScript_01+objectType</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>686ec78b56aa445795335fbadafcfaa4</guid>
+    <fileName>Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs</fileName>
+    <timeStamp>2024-07-24T00:25:28+05:30</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.TMP_FrameRateCounter</string>
+      <string>TMPro.Examples.TMP_FrameRateCounter+FpsCounterAnchorPositions</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>83680ab1a69f4102ac67d1459fe76e1f</guid>
+    <fileName>Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs</fileName>
+    <timeStamp>2024-07-24T00:25:28+05:30</timeStamp>
+    <typeFullName>
+      <string>TMPro.TMP_PhoneNumberValidator</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d736ce056cf444ca96e424f4d9c42b76</guid>
+    <fileName>Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs</fileName>
+    <timeStamp>2024-07-24T00:25:28+05:30</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.TMP_TextEventCheck</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1312ae25639a4bae8e25ae223209cc50</guid>
+    <fileName>Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs</fileName>
+    <timeStamp>2024-07-24T00:25:28+05:30</timeStamp>
+    <typeFullName>
+      <string>TMPro.TMP_TextEventHandler</string>
+      <string>TMPro.TMP_TextEventHandler+CharacterSelectionEvent</string>
+      <string>TMPro.TMP_TextEventHandler+SpriteSelectionEvent</string>
+      <string>TMPro.TMP_TextEventHandler+WordSelectionEvent</string>
+      <string>TMPro.TMP_TextEventHandler+LineSelectionEvent</string>
+      <string>TMPro.TMP_TextEventHandler+LinkSelectionEvent</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>21256c5b62f346f18640dad779911e20</guid>
+    <fileName>Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs</fileName>
+    <timeStamp>2024-07-24T00:25:28+05:30</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.TMP_TextInfoDebugTool</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>103e0a6a1d404693b9fb1a5173e0e979</guid>
+    <fileName>Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs</fileName>
+    <timeStamp>2024-07-24T00:25:28+05:30</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.TMP_TextSelector_A</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a05dcd8be7ec4ccbb35c26219884aa37</guid>
+    <fileName>Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs</fileName>
+    <timeStamp>2024-07-24T00:25:28+05:30</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.TMP_TextSelector_B</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>24b0dc2d1d494adbbec1f4db26b4cf83</guid>
+    <fileName>Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs</fileName>
+    <timeStamp>2024-07-24T00:25:28+05:30</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.TMP_UiFrameRateCounter</string>
+      <string>TMPro.Examples.TMP_UiFrameRateCounter+FpsCounterAnchorPositions</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>91b8ba3d52e041fab2d0e0f169855539</guid>
+    <fileName>Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs</fileName>
+    <timeStamp>2024-07-24T00:25:28+05:30</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.VertexColorCycler</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2ed57967c52645d390a89dcf8f61ba73</guid>
+    <fileName>Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs</fileName>
+    <timeStamp>2024-07-24T00:25:28+05:30</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.VertexJitter</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f7cfa58e417a46ea8889989684c2522e</guid>
+    <fileName>Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs</fileName>
+    <timeStamp>2024-07-24T00:25:28+05:30</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.VertexShakeA</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e4e0d9ccee5f4950be8979268c9014e0</guid>
+    <fileName>Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs</fileName>
+    <timeStamp>2024-07-24T00:25:28+05:30</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.VertexShakeB</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>52ec835d14bd486f900952b77698b7eb</guid>
+    <fileName>Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs</fileName>
+    <timeStamp>2024-07-24T00:25:28+05:30</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.VertexZoom</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>790744c462254b7ba8038e6ed28b3db2</guid>
+    <fileName>Assets/TextMesh Pro/Examples &amp; Extras/Scripts/WarpTextExample.cs</fileName>
+    <timeStamp>2024-07-24T00:25:28+05:30</timeStamp>
+    <typeFullName>
+      <string>TMPro.Examples.WarpTextExample</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>476cc7d7cd9874016adc216baab94a0a</guid>
+    <fileName>Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs</fileName>
+    <timeStamp>2025-01-31T00:49:37+05:30</timeStamp>
+    <typeFullName>
+      <string>ReadmeEditor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+</ArrayOfTypeDate>

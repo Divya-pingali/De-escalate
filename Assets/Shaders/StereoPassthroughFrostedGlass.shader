@@ -227,9 +227,6 @@ Shader "QuestCameraKit/CameraMapping/StereoPassthroughFrostedGlassTransparent"
                 half3 original = SampleEye(eyeIndex, uv).rgb;
                 half3 blurred = accum / totalWeight;
 
-                // Actual blur intensity control:
-                // 0 = original image
-                // 1 = fully blurred image
                 half3 blurMixed = lerp(original, blurred, _BlurStrength);
 
                 half3 frosted = lerp(blurMixed, blurMixed * _Tint.rgb, _TintStrength);

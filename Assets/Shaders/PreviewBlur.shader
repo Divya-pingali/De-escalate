@@ -85,7 +85,6 @@ Shader "QuestCameraKit/Preview/FrostedGlassPreview"
                 half3 original = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, uv).rgb;
                 half3 blurred = accum / total;
 
-                // Actual blur intensity control
                 half3 blurMixed = lerp(original, blurred, _BlurStrength);
 
                 half3 tinted = lerp(blurMixed, blurMixed * _Tint.rgb, _TintStrength);

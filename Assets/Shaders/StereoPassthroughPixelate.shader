@@ -171,23 +171,18 @@ Shader "QuestCameraKit/CameraMapping/StereoPassthroughPixelateTransparent"
                     discard;
                 }
 
-                // Keep original UVs for border fade
                 float2 originalUv = uv;
 
-                // Pixelate in UV space
                 float pixelSize = max(_PixelSize, 0.0001);
                 uv = floor(uv / pixelSize) * pixelSize;
 
                 half4 col = SampleEye(eyeIndex, uv);
 
-                // Optional tint
                 half3 tinted = lerp(col.rgb, col.rgb * _Tint.rgb, _TintStrength);
 
-                // Fade near camera UV crop edges
                 float cameraEdgeDistance = min(min(originalUv.x, originalUv.y), min(1.0 - originalUv.x, 1.0 - originalUv.y));
                 float cameraEdgeFade = smoothstep(0.0, _EdgeFeather, cameraEdgeDistance);
 
-                // Fade actual quad border using mesh UVs
                 float2 meshUv = IN.meshUv;
                 float quadEdgeDistance = min(min(meshUv.x, meshUv.y), min(1.0 - meshUv.x, 1.0 - meshUv.y));
                 float quadFade = smoothstep(0.0, _QuadFeather, quadEdgeDistance);

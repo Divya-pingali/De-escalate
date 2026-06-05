@@ -53,13 +53,8 @@ Shader "Custom/OverlayPixelate"
 
             fixed4 frag (v2f i) : SV_Target
             {
-                // Convert to screen UV (0–1)
                 float2 uv = i.screenPos.xy / i.screenPos.w;
 
-                // Optional: flip Y if needed
-                // uv.y = 1.0 - uv.y;
-
-                // Pixelation
                 uv = floor(uv / _PixelSize) * _PixelSize;
 
                 fixed4 col = tex2D(_LeftTex, uv);
