@@ -1,8 +1,6 @@
 # De-Escalate
 
-De-Escalate is an AR application for glasses that helps people with specific phobias be more in control when encountering unexpected triggers. In real time, the app detects the trigger and changes its appearance using filters like blur, pixelation, blocking, or calming overlays.
-
-Instead of removing the trigger completely, De-Escalate lets users choose how much detail they want to see based on their comfort level. This makes the encounter feel safer, less overwhelming, and more manageable.
+De-Escalate is an AR application for glasses that helps people with specific phobias be more in control when encountering unexpected triggers. In real time, the app detects the trigger and changes its appearance using filters like blur, pixelation, blocking, or calming overlays. Instead of removing the trigger completely, De-Escalate lets users choose how much detail they want to see based on their comfort level. This makes the encounter feel safer, less overwhelming, and more manageable.
 
 This app was developed and tested on Meta Quest 3, with future extension to other Unity XR-compatible devices through the Android build pipeline.
 ## Features
