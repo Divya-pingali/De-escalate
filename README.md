@@ -1,8 +1,8 @@
 # De-Escalate
 
-De-Escalate is an AR glasses assistive application designed to help people manage specific phobias when they unexpectedly encounter feared objects in everyday environments. In real time, the system detects the fear object and changes how it appears through visual filters such as blur, pixelation, blocking, or calming overlays, so the user can reduce frightening details while still staying aware of their surroundings.
+De-Escalate is an AR glasses assistive application designed to help people manage specific phobias when they unexpectedly encounter triggers in everyday environments. In real time, the system detects the fear object and changes how it appears through visual filters such as blur, pixelation, blocking, or calming overlays, so the user can reduce frightening details while still staying aware of their surroundings.
 
-This project is important because specific phobias can make everyday situations feel overwhelming, even when the object is not physically dangerous. De-Escalate gives users more control in the moment by letting them adjust how much of the feared object they want to see. Instead of fully avoiding the trigger, the system supports a gradual and more manageable experience based on the user’s comfort level.
+This project is important because specific phobias can make everyday situations feel overwhelming, even when the object is not physically dangerous. De-Escalate gives users more control in the moment by letting them adjust how much of the trigger they want to see. Instead of fully avoiding the trigger, the system supports a gradual and more manageable experience based on the user’s comfort level.
 
 This app was developed and tested on Meta Quest 3, with future extension to other Unity XR-compatible devices through the Android build pipeline.
 ## Features
@@ -21,7 +21,7 @@ Users can control the filters hands-free using voice commands. For example, they
 
 ### 4. AI Voice Mode
 
-AI Voice Mode lets users talk to an AI assistant during the encounter. The assistant can provide calming guidance, breathing prompts, grounding support, and positive reframing of the feared object. This makes the experience more personal and supportive, while keeping the user in control.
+AI Voice Mode lets users talk to an AI assistant during the encounter. The assistant can provide calming guidance, breathing prompts, grounding support, and positive reframing of the trigger. This makes the experience more personal and supportive, while keeping the user in control.
 
 ## Tech Stack
 
